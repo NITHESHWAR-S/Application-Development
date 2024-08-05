@@ -1,0 +1,75 @@
+/* Navbar.css */
+.navbar {
+  background: linear-gradient(to right, #c8e1ff, #0d47a1); /* Match Home page gradient */
+  box-shadow: none; /* Remove shadow */
+}
+
+/* Logo Styles */
+.navbar .logo img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+/* Navbar Title */
+.navbar .title {
+  flex-grow: 1;
+  font-weight: 700;
+  color: #ffffff; /* High contrast white text */
+}
+
+/* Menu Icon */
+.navbar .menu-icon {
+  color: #ffffff; /* High contrast white icon */
+}
+
+/* Menu Items for Small Screens */
+.navbar .menu-items-xs {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar .menu-items-xs a {
+  text-decoration: none;
+  color: #ffffff; /* High contrast white text */
+  padding: 10px 20px;
+}
+
+.navbar .menu-items-xs a:hover {
+  background-color: rgba(0, 0, 0, 0.2); /* Darker background on hover for better contrast */
+  color: #ffffff; /* High contrast white text */
+}
+
+/* Menu Items for Medium and Large Screens */
+.navbar .menu-items-md {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .menu-items-md a {
+  text-decoration: none;
+  color: #ffffff; /* High contrast white text */
+  padding: 15px 20px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.navbar .menu-items-md a:hover {
+  background-color: rgba(0, 0, 0, 0.2); /* Darker background on hover for better contrast */
+  border-radius: 4px;
+}
+
+/* Login Button */
+.navbar .login-button {
+  color: #ffffff; /* High contrast white text */
+  border: 1px solid #ffffff; /* White border for better visibility */
+  padding: 10px 20px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.navbar .login-button:hover {
+  background-color: rgba(0, 0, 0, 0.2); /* Darker background on hover for better contrast */
+  color: #ffffff; /* High contrast white text */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Slightly transparent white border on hover */
+  border-radius: 4px;
+}

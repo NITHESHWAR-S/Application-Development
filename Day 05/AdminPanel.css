@@ -1,0 +1,132 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.admin-panel {
+  display: flex;
+  height: 100vh; /* Ensure the admin panel takes full viewport height */
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  flex: 1; /* Allow ul to grow and fill the space */
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+
+}
+
+.dashboard .stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.dashboard .card {
+  background-color: #17a2b8;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.dashboard .recent-activity {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.dashboard .recent-activity ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard .recent-activity li {
+  margin: 10px 0;
+}
+
+.profile .profile-info {
+  margin-bottom: 20px;
+}
+
+.profile .profile-actions button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile .profile-actions button:hover {
+  background-color: #0056b3;
+}
+
+.user-info .user-list {
+  margin-top: 20px;
+}
+
+.user-info table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-info th, .user-info td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.user-info th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.user-info td {
+  background-color: #f8f9fa;
+}
+
+.user-info button {
+  padding: 5px 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-info button:hover {
+  background-color: #218838;
+}
